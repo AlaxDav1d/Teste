@@ -1,91 +1,117 @@
-*{
+*  {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: antiquewhite;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     max-width: 1600px;
+}
+p   {
+    font-weight: bolder;
+}
+h1  {
+    margin: 15px;
 
+}
+img{
+    background-color:darkgray;
+    border-radius: 19px;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+    width: 30px;
+    padding: 9px;
+    overflow: visible;
+}
+button{
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
 }
 .fundo{
     background-color: rgba(146, 226, 248, 0.612);
-    width: 1560px;
-    height: 700px;
-    margin: 20px;
+    width: 1500px;
+    height: 710px;
+    margin: 19px;
+    padding: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .centro{
     background-color: aliceblue;
-    width: 500px;
+    width: 400px;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 20px;
-    padding: 90px;
-
+    
 }
 .plano{
-    padding: 30px;
+    padding: 30px 40px;
+    margin: 20px;
     font-size: 60px;
+    width: 300px;
     background-color: rgba(173, 179, 184, 0.495);
+    font-size: 20px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap:wrap;
+    font-size: medium;
 }
 .azul{
-    background-color: blue;
-    width: 500px;
-    height: 550px;
-    bottom: 120px;
+    background-color: rgb(18, 18, 245);
+    width: 400px;
+    padding: 60px;
+    height: 200px;
+    bottom: 0px;
     position: relative;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
-p{
-    width: 400px;
-}
-h1
-    {   
-        
-    }
-img
-    {
-        width: 9%;
-        background-color:darkgray;
-        border-radius: 17.5px;
-        padding: 10px;
-        position: relative;
-        bottom: 15px;
-    }
-.plano{
-    font-size: 20px;
-    height: 120px;
-    border-radius: 10px;
-}
 #lorem{
-    color: darkgray;
-    width: 400px;
-    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(120, 117, 117);
+    width: 285px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 #anual{
     position: relative;
-    left: 65px;
+    left: 30px;
     text-transform: capitalize;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #valor{
-    color: black;
-    left: 70px;
-    bottom: 40px;
+    color: rgb(120, 117, 117);
+    left: 30px;
+    bottom: 30px;
     position: relative;   
 }
 #link{
+    font-size: medium;
     position: relative;
-    left: 200px;
+    left: 180px;
+    bottom: 60px;
+    padding-left: 10px;        
+}
+#pay{
+    background-color: rgb(18, 18, 245);
+    color: white;
+}
+#cancel{
+    background-color: aliceblue;
 }
